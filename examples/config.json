@@ -1,0 +1,9 @@
+{
+  "hotkey": {"code": "KeyS", "ctrl": true, "shift": true, "alt": false},
+  "rules": [
+    {"path": "^/orders", "sheet": "订单", "name": "订单列表"},
+    {"path": "^/orders", "title": "已审核", "sheet": "订单", "name": "已审核订单"},
+    {"path": "^/reports", "sheet": "报表", "name": "统计报表"},
+    {"path": "^/table", "sheet": "长表格", "container": "#rows", "static_content": true}
+  ]
+}
